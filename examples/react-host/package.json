@@ -1,0 +1,6 @@
+{
+  "name": "plugin-dev-host-fixture",
+  "private": true,
+  "description": "Static analysis fixture, not a bootable application",
+  "dependencies": { "react": "^19.0.0" }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "plugin-dev",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Project-aware, customizable building blocks for SaaS and ERP applications",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "bin": { "plugin-dev": "./src/cli.mjs" },
+  "scripts": { "test": "node --test", "demo": "node src/cli.mjs add customers examples/react-host" }
+}
